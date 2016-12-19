@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A23784341DBDBA0A00227982 /* 1123.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A23784331DBDBA0A00227982 /* 1123.bundle */; };
 		A26F53E31D7D134D00395060 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F53E21D7D134D00395060 /* main.m */; };
 		A26F53E61D7D134D00395060 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F53E51D7D134D00395060 /* AppDelegate.m */; };
 		A26F53E91D7D134D00395060 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F53E81D7D134D00395060 /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		A26F53F11D7D134D00395060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26F53EF1D7D134D00395060 /* LaunchScreen.storyboard */; };
 		A26F53FC1D7D134D00395060 /* runtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F53FB1D7D134D00395060 /* runtimeTests.m */; };
 		A26F54071D7D134D00395060 /* runtimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F54061D7D134D00395060 /* runtimeUITests.m */; };
+		A28D3B181DB8C441009DA268 /* UIViewController+NSLogAppear.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D3B171DB8C441009DA268 /* UIViewController+NSLogAppear.m */; };
+		A28D3B261DB8C6C3009DA268 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D3B241DB8C6C3009DA268 /* ViewController1.m */; };
+		A28D3B271DB8C6C3009DA268 /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28D3B251DB8C6C3009DA268 /* ViewController1.xib */; };
+		A28D3B2B1DB8C6CE009DA268 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D3B291DB8C6CE009DA268 /* ViewController2.m */; };
+		A28D3B2C1DB8C6CE009DA268 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28D3B2A1DB8C6CE009DA268 /* ViewController2.xib */; };
+		A2CCF31D1DC830E1007651B9 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CCF31C1DC830E1007651B9 /* NSObject+runtime.m */; };
+		A2CCF3201DC832D1007651B9 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CCF31F1DC832D1007651B9 /* PersonModel.m */; };
+		A2EFCB101DBA0E3600896C60 /* UIView+Corner_Radius.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EFCB0F1DBA0E3600896C60 /* UIView+Corner_Radius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A23784331DBDBA0A00227982 /* 1123.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 1123.bundle; sourceTree = "<group>"; };
 		A26F53DE1D7D134D00395060 /* runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26F53E21D7D134D00395060 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A26F53E41D7D134D00395060 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,20 @@
 		A26F54021D7D134D00395060 /* runtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26F54061D7D134D00395060 /* runtimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeUITests.m; sourceTree = "<group>"; };
 		A26F54081D7D134E00395060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28D3B161DB8C441009DA268 /* UIViewController+NSLogAppear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NSLogAppear.h"; sourceTree = "<group>"; };
+		A28D3B171DB8C441009DA268 /* UIViewController+NSLogAppear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NSLogAppear.m"; sourceTree = "<group>"; };
+		A28D3B231DB8C6C3009DA268 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		A28D3B241DB8C6C3009DA268 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		A28D3B251DB8C6C3009DA268 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		A28D3B281DB8C6CE009DA268 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		A28D3B291DB8C6CE009DA268 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		A28D3B2A1DB8C6CE009DA268 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		A2CCF31B1DC830E1007651B9 /* NSObject+runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+runtime.h"; sourceTree = "<group>"; };
+		A2CCF31C1DC830E1007651B9 /* NSObject+runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runtime.m"; sourceTree = "<group>"; };
+		A2CCF31E1DC832D1007651B9 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		A2CCF31F1DC832D1007651B9 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		A2EFCB0E1DBA0E3600896C60 /* UIView+Corner_Radius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Corner_Radius.h"; sourceTree = "<group>"; };
+		A2EFCB0F1DBA0E3600896C60 /* UIView+Corner_Radius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Corner_Radius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +125,25 @@
 		A26F53E01D7D134D00395060 /* runtime */ = {
 			isa = PBXGroup;
 			children = (
+				A23784331DBDBA0A00227982 /* 1123.bundle */,
 				A26F53E41D7D134D00395060 /* AppDelegate.h */,
 				A26F53E51D7D134D00395060 /* AppDelegate.m */,
 				A26F53E71D7D134D00395060 /* ViewController.h */,
 				A26F53E81D7D134D00395060 /* ViewController.m */,
+				A28D3B161DB8C441009DA268 /* UIViewController+NSLogAppear.h */,
+				A28D3B171DB8C441009DA268 /* UIViewController+NSLogAppear.m */,
+				A2EFCB0E1DBA0E3600896C60 /* UIView+Corner_Radius.h */,
+				A2EFCB0F1DBA0E3600896C60 /* UIView+Corner_Radius.m */,
+				A2CCF31B1DC830E1007651B9 /* NSObject+runtime.h */,
+				A2CCF31C1DC830E1007651B9 /* NSObject+runtime.m */,
+				A2CCF31E1DC832D1007651B9 /* PersonModel.h */,
+				A2CCF31F1DC832D1007651B9 /* PersonModel.m */,
+				A28D3B231DB8C6C3009DA268 /* ViewController1.h */,
+				A28D3B241DB8C6C3009DA268 /* ViewController1.m */,
+				A28D3B251DB8C6C3009DA268 /* ViewController1.xib */,
+				A28D3B281DB8C6CE009DA268 /* ViewController2.h */,
+				A28D3B291DB8C6CE009DA268 /* ViewController2.m */,
+				A28D3B2A1DB8C6CE009DA268 /* ViewController2.xib */,
 				A26F53EA1D7D134D00395060 /* Main.storyboard */,
 				A26F53ED1D7D134D00395060 /* Assets.xcassets */,
 				A26F53EF1D7D134D00395060 /* LaunchScreen.storyboard */,
@@ -243,8 +282,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28D3B2C1DB8C6CE009DA268 /* ViewController2.xib in Resources */,
+				A28D3B271DB8C6C3009DA268 /* ViewController1.xib in Resources */,
 				A26F53F11D7D134D00395060 /* LaunchScreen.storyboard in Resources */,
 				A26F53EE1D7D134D00395060 /* Assets.xcassets in Resources */,
+				A23784341DBDBA0A00227982 /* 1123.bundle in Resources */,
 				A26F53EC1D7D134D00395060 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28D3B261DB8C6C3009DA268 /* ViewController1.m in Sources */,
 				A26F53E91D7D134D00395060 /* ViewController.m in Sources */,
+				A28D3B181DB8C441009DA268 /* UIViewController+NSLogAppear.m in Sources */,
+				A2EFCB101DBA0E3600896C60 /* UIView+Corner_Radius.m in Sources */,
+				A2CCF31D1DC830E1007651B9 /* NSObject+runtime.m in Sources */,
 				A26F53E61D7D134D00395060 /* AppDelegate.m in Sources */,
+				A2CCF3201DC832D1007651B9 /* PersonModel.m in Sources */,
 				A26F53E31D7D134D00395060 /* main.m in Sources */,
+				A28D3B2B1DB8C6CE009DA268 /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +546,7 @@
 				A26F540D1D7D134E00395060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A26F540E1D7D134E00395060 /* Build configuration list for PBXNativeTarget "runtimeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +555,7 @@
 				A26F54101D7D134E00395060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A26F54111D7D134E00395060 /* Build configuration list for PBXNativeTarget "runtimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +564,7 @@
 				A26F54131D7D134E00395060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
